@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700");
+
+* {
+	font-family: "Fredoka", sans-serif;
+	color: #fff;
+}
+body {
+	background-color: #150840;
+}
+a, a * {
+	color: #007fff;
+	text-decoration-line: underline;
+}
+img {
+	border-radius: 4px;
+}
+ul, ol {
+	padding-left: 14px;
+}
+
+.mainpagetablefr {
+	margin: auto;
+	width: 100%;
+
+	tr td:first-child {
+		width: 25vw;
+	}
+}
+
+.mainpagetablefr, .socialstable, .randomtrivialist, .musingcontent {
+	border-radius: 0px 0px 12px 12px;
+	padding: 12px;
+}
+.socialstable {
+	border-radius: 12px;
+	background-color: #fff1;
+}
+
+.socialstable tr td {
+	text-align: center;
+	width: calc(100%/3); /* 33.33...% but yes */
+}
+
+.window {
+	background-color: #fff1;
+	margin: auto;
+	width: 75%;
+	box-shadow: 0px 0px 16px #000;
+	border-radius: 0px 0px 12px 12px;
+}
+
+.randomtrivialist {
+	padding-left: 36px;
+	margin-top: 0px;
+}
+
+.vcentered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+canvas, .passantracerbody {
+	margin: 0;
+}
+
+.mptbar {
+	background-color: #551fff;
+	border-radius: 12px 12px 0px 0px;
+	padding: 4px;
+}
+.mptbar img {
+	position: relative;
+	top: 2px; left: 2px;
+}
+.mptbartitle {
+	position: relative;
+	color: #fff;
+	padding-left: 2px;
+	top: -4px;
+}
+
+/*
+a:hover {
+	transition-duration: 0.3s;
+	font-size: 100px;
+}
+a {
+	transition-duration: 0.3s;
+}
+*/
+
+.emoji {
+	position: relative;
+	bottom: -3px;
+}
+
+.musingwindow {
+	width: 60%;
+}
+.musingcontent * {
+	margin: 0px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.musingcontent {
+	padding-bottom: 12px;
+}
+.musingcontent a * {
+	padding-left: 0px;
+}
