@@ -11,9 +11,6 @@ a, a * {
 	color: #007fff;
 	text-decoration-line: underline;
 }
-img {
-	border-radius: 12px 12px 12px 12px !important;
-}
 ul, ol {
 	padding-left: 14px;
 }
@@ -109,4 +106,8 @@ a {
 }
 .musingcontent a * {
 	padding-left: 0px;
+	padding-right: 0px;
+}
+.musingcontent a img {
+	border-radius: 12px 12px 12px 12px;
 }
