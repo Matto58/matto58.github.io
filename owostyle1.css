@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700");
-
 * {
-	font-family: "Fredoka", sans-serif;
+	font-family: "Fredoka", "Source Sans 3", sans-serif;
 	color: #fff;
 }
 body {
@@ -111,4 +109,10 @@ a {
 .musingcontent a img {
 	border-radius: 12px 12px 12px 12px;
 	margin-bottom: 12px;
+}
+.veryslightlytotheright {
+	margin-left: 8px;
+}
+.langex {
+	width: 50%;
 }
